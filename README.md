@@ -1,2 +1,2 @@
-# Script_pos-instalacao_Linux
-Script de pós-instalação para distros Linux, baseado em Ubuntu.
+# Scripts_Linux
+Scripts para distros Linux, baseado em Ubuntu.
