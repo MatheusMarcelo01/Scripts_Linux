@@ -1,0 +1,28 @@
+#Sempre recomendo o LibreOffice, porém algumas pessoas tem receio, pela sua aparência ser diferente do Office do Windows...
+#Com esse script, o LibreOffice no Linux, fica idêntico ao Office da Microsoft.
+
+
+#INSTALAÇÃO - basta colar esse script no terminal.
+#!/bin/bash
+# Instalar o tema do LibreOffice
+sudo apt-get install libreoffice-gtk3-integration
+
+# Instalar o pacote do Microsoft Office icons
+sudo apt-get install libreoffice-style-sifr
+
+# Selecionar o tema e o ícone
+libreoffice --view=GTK
+
+
+
+#Se quiser reverter, basta colar este no terminal:
+#!/bin/bash
+
+# Desinstalar o pacote do Microsoft Office icons
+sudo apt-get remove libreoffice-style-sifr
+
+# Desinstalar o tema do LibreOffice
+sudo apt-get remove libreoffice-gtk3-integration
+
+# Iniciar o LibreOffice com a aparência padrão
+libreoffice
