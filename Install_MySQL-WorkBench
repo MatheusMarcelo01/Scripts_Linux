@@ -1,0 +1,18 @@
+#Para funcionar o sistema de autenticação do banco de dados MySQL no MySql WorkBench (snap)
+
+#Instale a versão estável do programa:
+sudo snap install mysql-workbench-community
+
+#Caso utilize conexões, o Workbench usa o Gerenciador de Senhas e o ssh para funcionar corretamente:
+snap connect mysql-workbench-community:password-manager-service
+snap connect mysql-workbench-community:ssh-keys
+
+#Para arquivos em discos externos ou também precise imprimir arquivos:
+snap connect mysql-workbench-community:cups-control
+snap connect mysql-workbench-community:removable-media
+
+
+#Para desinstalar o MySQL Workbench no Linux via Snap
+sudo snap remove mysql-workbench-community
+
+
