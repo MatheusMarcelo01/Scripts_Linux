@@ -45,6 +45,15 @@ sudo apt-get install vlc
 # Instalação do Discord
 sudo snap install discord
 
+# Instalação do Git
+sudo apt-get install git
+
+# Instalação do Python3
+sudo apt-get install python3
+
+# Instalação do Node.js
+sudo apt-get install nodejs
+
 echo "Instalação concluída!"
 
 
