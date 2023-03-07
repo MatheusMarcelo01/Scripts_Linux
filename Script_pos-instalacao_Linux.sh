@@ -58,6 +58,6 @@ echo "Instalação concluída!"
 
 
 
-##alvar o script com a extensão .sh e executar com permissões de superusuário. 
+##Salvar o script com a extensão .sh e executar com permissões de superusuário. 
 #Abra o terminal na pasta onde o script foi salvo e execute o comando:
 #sudo bash nome-do-script.sh
